@@ -1,0 +1,54 @@
+openapi: 3.0.0
+info:
+  title: Triatlhon Policy API Integration with thirth party
+  description: Triatlhon Policy API Integration with thirth party
+  contact:
+    email: alvaropuertas76@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: https://virtserver.swaggerhub.com/ALVAROPUERTAS76/InsuranceIntegration/1.0.0
+    description: SwaggerHub API Auto Mocking
+tags:
+  - name: Triatlhon Integration
+    description: Operations available to developers
+paths:
+  /forecastWeather:
+    get:
+      tags:
+        - Triatlhon Policy Product
+      summary: get weather forecast
+      description: |
+        get the forecast weather from location
+      operationId: getForecast
+      parameters:
+        - name: lat
+          in: query
+          description: latitude of a place
+          required: true
+          style: form
+          explode: true
+          schema:
+            type: string
+        - name: lon
+          in: query
+          description: latitude and longitude of a place
+          required: true
+          style: form
+          explode: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: search results matching criteria
+          content:
+            application/json:
+              schema:
+                type: number
+                format: double
+                example: 87
+        "400":
+          description: bad input parameter
+components: {}
