@@ -85,8 +85,8 @@
                             <inputSpec>${project.basedir}/docapi/InsuranceIntegration-1.0.0.yaml</inputSpec>
                             <generatorName>spring</generatorName>
                             <configOptions>
-                                <apiPackage>org.zurich.api</apiPackage>
-                                <modelPackage>org.zurich.model</modelPackage>
+                                <apiPackage>org.insurancecompany.api</apiPackage>
+                                <modelPackage>org.insurancecompany.model</modelPackage>
                                 <documentationProvider>none</documentationProvider>
                                 <openApiNullable>false</openApiNullable>
                                 <interfaceOnly>true</interfaceOnly>

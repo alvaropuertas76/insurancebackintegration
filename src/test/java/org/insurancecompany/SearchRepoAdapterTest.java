@@ -1,4 +1,4 @@
-package org.zurich;
+package org.insurancecompany;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

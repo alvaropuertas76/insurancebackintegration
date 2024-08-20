@@ -1,4 +1,4 @@
-package org.zurich.model;
+package org.insurancecompany.model;
 
 public class Weather {
     private Data_Day data_day;

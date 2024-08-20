@@ -1,4 +1,4 @@
-package org.zurich;
+package org.insurancecompany;
 
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.junit.jupiter.api.Test;

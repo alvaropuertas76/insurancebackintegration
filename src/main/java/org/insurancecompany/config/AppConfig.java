@@ -1,4 +1,4 @@
-package org.zurich.config;
+package org.insurancecompany.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

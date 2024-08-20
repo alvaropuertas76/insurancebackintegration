@@ -1,4 +1,4 @@
-package org.zurich.model;
+package org.insurancecompany.model;
 
 import java.util.ArrayList;
 
